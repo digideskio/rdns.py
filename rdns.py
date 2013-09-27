@@ -32,7 +32,7 @@ class wwhi_rip(object):
         self.url="http://whois.webhosting.info/"+self.ip
         self.hosts_count=0 #hosts count
         self.hosts_per_page=50 #hosts per page as per self.url
-        self.pages_count=0 #pages counts
+        self.pages_count=0 #pages count
         self.hosts={} #host to ip map
         
         print "IP:",ip
